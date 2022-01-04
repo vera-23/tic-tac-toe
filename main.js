@@ -1,7 +1,7 @@
 //Function onclick
 function myfunc() {
 
-	// Setting DOM to all boxes or input field
+	//  DOM 
 	var feld1, feld2, feld3, feld4, feld5, feld6, feld7, feld8, feld9;
 	feld1 = document.getElementById("feld1").value;
 	feld2 = document.getElementById("feld2").value;
