@@ -227,7 +227,7 @@ function myfunc() {
 	}
 	else {
 
-		// Here, Printing Result
+		// Wer ist dran?
 		if (flag == 1) {
 			document.getElementById('print')
 				.innerHTML = "Spieler X ist dran!";
@@ -239,7 +239,7 @@ function myfunc() {
 	}
 }
 
-// Function to reset game
+// Function reset
 function reset() {
 	location.reload();
 	document.getElementById('feld1').value = '';
@@ -254,8 +254,7 @@ function reset() {
 
 }
 
-// Here onwards, functions check turn of the player 
-// and put accordingly value X or 0
+
 flag = 1;
 function wer_ist_dran1() {
 	if (flag == 1) {
